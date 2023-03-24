@@ -1,0 +1,86 @@
+body{
+    width:100%;
+    min-height:100%;
+    background: linear-gradient(90deg,#55ff00 0%, #004cff 100%);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color: white
+}
+
+#fonte{
+    font-family: 'Josefin Sans', sans-serif;
+    display:flex;
+    justify-content: center;
+    font-size:50px
+}
+#titulo{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.container{
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    width: 50%;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    margin: 50px;
+    background: rgba(73,66,76,0.3);
+    margin-left: 50px;
+}
+#tipo{
+    font-size: 20px;
+    padding:10px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#visCamera{
+    font-size:40px;
+    display:flex;
+    justify-content:center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#botao1{
+    color:white;
+    display:inline;
+    margin-left: 250px;
+    background-color:#55ff00;
+    font-size: 20px;
+    border-radius:10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding:15px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#botao2{
+    color:white;
+    display:inline;
+    margin-left: 250px;
+    background-color:#004cff;
+    font-size: 20px;
+    border-radius:10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding:15px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#cameraCentro{
+    display:flex;
+    justify-content: center;
+}
+#label{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#imagemDeCara{
+    width: 70px;
+    margin-left: 330px;
+}
